@@ -1,0 +1,15 @@
+server:
+  port: 30000
+
+spring:
+  cloud:
+    alicloud:
+      access-key: 嘻嘻笑
+      secret-key: 嘻嘻笑
+      oss:
+        endpoint: 嘻嘻笑
+        bucket: 嘻嘻笑
+
+
+
+
