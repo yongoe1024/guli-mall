@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: renren-fast
+  cloud:
+    nacos:
+      config:
+        extension-configs:
+          - data-id: renren-fast.yml
+            group: DEFAULT_GROUP
+            refresh: true
+        server-addr: 127.0.0.1:8848
+        namespace: gulimall-dev
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: gulimall-dev
